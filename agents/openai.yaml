@@ -1,0 +1,15 @@
+interface:
+  display_name: "Editable Excalidraw Diagram"
+  short_description: "Convert diagram images into editable Excalidraw files."
+  default_prompt: "Use $editable-excalidraw-diagram to convert this technical roadmap image into an editable Excalidraw file."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "excalidraw"
+      description: "Excalidraw MCP server for create_view preview and checkpoint generation."
+      transport: "streamable_http"
+      url: "https://mcp.excalidraw.com"
+
+policy:
+  allow_implicit_invocation: true
