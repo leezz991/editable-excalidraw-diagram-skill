@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+node_modules/
+*.excalidraw
+*.mcp-elements.json
+*.mcp-result.json
+*.url.txt
+*.text-audit.md
+*.cleaned.png
+*.assets/
+outputs/
+dist/
